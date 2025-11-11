@@ -28,6 +28,3 @@
 - [Cognition AI](https://cognition.ai/blog/1)
 - [xAI](https://x.ai/news)
 - [Hugging Face](https://huggingface.co/blog)
-
-
-Mistral, Hugging Face, and Cohere,

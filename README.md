@@ -19,8 +19,8 @@ Software engineering is changing, AI tools to help develop software based on LLM
 ## Sections
 - [Quick Start Guide](Guides/quickstart.md) - A high level guide to get you going within 10 minutes.
 - [AI Assisted Engineering Process](#AI-Assisted-Engineering-Process)
-  - [How To Leverage AI In The Software Engineering Process]()
-  - [How To Prompt LLMs]()
+  - [How To Leverage AI In The Software Engineering Process](#How-To-Leverage-AI-In-The-Software-Engineering-Process)
+  - [How To Prompt LLMs](#How-To-Prompt-LLMs)
   - [How And Why To Provide Context]()
     - [How To Use Agents.md Files To Provide Context]()
   - [How To Use AI For Code Review]()
