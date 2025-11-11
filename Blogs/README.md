@@ -1,0 +1,33 @@
+# Software Engineering Blogs From AI Companies
+
+- [OpenAI](https://developers.openai.com/blog/)
+- [Anthropic](https://www.anthropic.com/engineering)
+- [Perplexity](https://research.perplexity.ai/)
+- [Google Research](https://research.google/blog/)
+- [Cursor](https://cursor.com/blog)
+- [Windsurf](https://windsurf.com/blog)
+- [Augment Code](https://www.augmentcode.com/blog)
+- [tabnine](https://www.tabnine.com/blog/)
+- [Amazon Q](https://aws.amazon.com/blogs/devops/category/amazon-q/)
+- [GitHub Copilot](https://github.blog/ai-and-ml/github-copilot/)
+- [Loveable](https://lovable.dev/blog)
+- [Replit](https://blog.replit.com/)
+- [Bolt](https://bolt.new/blog)
+- [Kiro](https://kiro.dev/blog/)
+- [Amp](https://ampcode.com/news)
+- [JetBrains Junie](https://blog.jetbrains.com/junie/)
+- [IBM Watsonx Code Assistant](https://developer.ibm.com/components/watsonx-code-assistant/)
+- [Nvidia](https://developer.nvidia.com/blog/category/generative-ai/)
+- [Qodo](https://www.qodo.ai/blog/)
+- [CodeGPT](https://blog.codegpt.co/)
+- [CodeGeeX](https://models.aminer.cn/codegeex/blog/)
+- [Warp](https://www.warp.dev/blog)
+- [Cline](https://cline.bot/blog)
+- [Qwen](https://qwen.ai/research)
+- [Kilo Code](https://blog.kilocode.ai/)
+- [Cognition AI](https://cognition.ai/blog/1)
+- [xAI](https://x.ai/news)
+- [Hugging Face](https://huggingface.co/blog)
+
+
+Mistral, Hugging Face, and Cohere,
