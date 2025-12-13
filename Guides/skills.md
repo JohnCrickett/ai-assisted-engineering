@@ -7,6 +7,7 @@
     - [Where Are Skills Found / Installed](#where-are-skills-found--installed)
   - [How Are Skills Invoked?](#how-are-skills-invoked)
   - [How To Create Skills](#how-to-create-skills)
+  - [Example Code Review Skill(#example-code-review-skill)
   - [References](#references)
 
 # Coding Agent Skills
@@ -103,6 +104,38 @@ my-skill/
 │   └── helper.py (optional utility)
 └── templates/
     └── template.txt (optional template)
+```
+
+## Example Code Review Skill
+
+Here is a simple example of a code review skill. It could be expanded with:
+- A personal, team or corporate style guide/coding standard.
+- Scripts to run the linters or tests if required.
+- Templates for code review summary / report.
+
+Example `SKILL.md` file:
+```markdown
+---
+name: code-review
+description: Perform a code review of the project.
+---
+
+# Code Review
+
+## Instructions
+1. Read all the code in the repository.
+2. Run the tests against the code and ensure they pass.
+3. Run the appropriate linter and formatter for the programming language.
+4. Check the code against best practices for the programming language of the file.
+5. Check the code is clear, easy to read and simple.
+6. Check the code is consistent with the majority of the code in the project.
+7. Suggest any refactoring opportunities.
+
+## Examples
+Please review this code.
+Conduct a code review.
+Can you review this code please?
+Can you review this code?
 ```
 
 ## References
