@@ -3,7 +3,7 @@ The following is a currated list of AI assisted software engineering tools.
 
 * [Codex](https://chatgpt.com/en-GB/features/codex) - OpenAI's coding agent.
 * [Augment Code](https://www.augmentcode.com/) - An eponymous autonomous software agent.
-* [Cursor](https://cursor.com/) -
+* [Cursor](https://cursor.com/) - A AI enabled IDE.
 * [Claude Code](https://claude.com/product/claude-code) - A terminal based coding agent based on Claude.
 * [Amazon Q Developer](https://aws.amazon.com/q/developer/build/) - Built by Amazon to handle large projects.
 * [GitHub Copilot](https://github.com/features/copilot) - GitHub's coding agent.
