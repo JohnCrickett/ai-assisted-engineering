@@ -12,6 +12,7 @@ Software engineering is changing, AI tools to help develop software based on LLM
 
 ## Sections
 - [Guides](Guides/README.md)
+  - [Coding Agent Skills](Guides/skills.md)
   - [Prompt Engineering](Guides/prompt-engineering.md)
 - [Resources](Resources/README.md)
   - [AI Coding Tools](Resources/CodingTools/README.md)
