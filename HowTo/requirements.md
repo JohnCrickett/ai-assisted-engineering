@@ -15,11 +15,13 @@ A big challenge in software engineering is vague, ambiguous and incomplete requi
 ### Example Prompt Template
 
 ```text
-You are a software engineer tasked with building a system to <GOAL>. Your current task is to draft a set of requirements for <TASK/FEATURE>.
+You are a software engineer tasked with building a system to <GOAL>. 
+Your current task is to draft a set of requirements for <TASK/FEATURE>.
 
 These are the currently documented requirements: <INSERT DRAFT REQUIREMENTS>.
 
-Ask me all the questions you need answers to in order to create a complete set of requirements and acceptance criteria?
+Ask me all the questions you need answers to in order to create a complete set of 
+requirements and acceptance criteria?
 ```
 
 ### Example Response Template
