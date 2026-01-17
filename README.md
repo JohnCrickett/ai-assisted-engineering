@@ -20,6 +20,7 @@ Software engineering is changing, AI tools to help develop software based on LLM
 - [Resources](Resources/README.md)
   - [AI Coding Tools](Resources/CodingTools/README.md)
   - [AI Code Review Tools](Resources/CodeReviewTools/README.md)
+  - [Ai Coding Tools - Vendor Guides](Resources/VendorGuides/README.md)
   - [AI Assisted Coding Courses](Resources/Courses/README.md)
   - [AI Company Blogs](Resources/Blogs/README.md)
   - [Useful AI-Assisted Coding Talks](Resources/Talks/README.md)
