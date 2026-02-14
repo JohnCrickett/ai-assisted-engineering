@@ -7,7 +7,7 @@
     - [Where Are Skills Found / Installed](#where-are-skills-found--installed)
   - [How Are Skills Invoked?](#how-are-skills-invoked)
   - [How To Create Skills](#how-to-create-skills)
-  - [Example Code Review Skill(#example-code-review-skill)
+  - [Example Code Review Skill](#example-code-review-skill)
   - [References](#references)
 
 # Coding Agent Skills
@@ -36,7 +36,7 @@ Skills are reusable tools that give coding agents specialized capabilities and m
 
 ### Where Are Skills Found / Installed
 
-Some agents support personal (local user) and project based skills. 
+Some agents support personal (local user) and project based skills.
 
 Use personal Skills for:
 
@@ -53,11 +53,11 @@ Use project Skills for:
 
 Skills are installed in diffent locations depending on the agent being used and the scope of the skills.
 
-| Agent | Personal Skills | Project Based Skills |
-|-|-|-|
-| **Amp** | ~/.claude/skills/ or ~/.config/amp/tools | .claude/skills/ |
-| **Claude Code** | ~/.claude/skills/ | .claude/skills/ |
-| **OpenAI Codex** | ~/.codex/skills/ | |
+| Agent            | Personal Skills                          | Project Based Skills |
+| ---------------- | ---------------------------------------- | -------------------- |
+| **Amp**          | ~/.claude/skills/ or ~/.config/amp/tools | .claude/skills/      |
+| **Claude Code**  | ~/.claude/skills/                        | .claude/skills/      |
+| **OpenAI Codex** | ~/.codex/skills/                         |                      |
 
 ## How Are Skills Invoked?
 
@@ -109,11 +109,13 @@ my-skill/
 ## Example Code Review Skill
 
 Here is a simple example of a code review skill. It could be expanded with:
+
 - A personal, team or corporate style guide/coding standard.
 - Scripts to run the linters or tests if required.
 - Templates for code review summary / report.
 
 Example `SKILL.md` file:
+
 ```markdown
 ---
 name: code-review
@@ -123,6 +125,7 @@ description: Perform a code review of the project.
 # Code Review
 
 ## Instructions
+
 1. Read all the code in the repository.
 2. Run the tests against the code and ensure they pass.
 3. Run the appropriate linter and formatter for the programming language.
@@ -132,6 +135,7 @@ description: Perform a code review of the project.
 7. Suggest any refactoring opportunities.
 
 ## Examples
+
 Please review this code.
 Conduct a code review.
 Can you review this code please?
