@@ -7,12 +7,14 @@
     - [Where Are Skills Found / Installed](#where-are-skills-found--installed)
   - [How Are Skills Invoked?](#how-are-skills-invoked)
   - [How To Create Skills](#how-to-create-skills)
-  - [Example Code Review Skill(#example-code-review-skill)
+  - [Example Code Review Skill](#example-code-review-skill)
   - [References](#references)
 
 # Coding Agent Skills
 
-Skills are modular capabilities that extend a coding agent’s functionality.
+Skills are modular capabilities that extend a coding agent’s functionality. They provide a way to customize the agent for your specific needs. Instead of re-explaining your
+preferences, processes, and domain expertise in every conversation, skills let you document them once for the agentand benefit every time. Skills are incredibly useful when you have repeatable workflows.
+
 
 ## What Are Agent Skills?
 
@@ -61,14 +63,15 @@ Skills are installed in diffent locations depending on the agent being used and 
 
 ## How Are Skills Invoked?
 
-Skills are model-invoked—Claude autonomously decides when to use them based on your request and the Skill’s description. This is different from slash commands, which are user-invoked (you explicitly type /command to trigger them).
+Skills are model-invoked, the agent autonomously decides when to use them based on your request and the Skill’s description. This is different from slash commands, which are user-invoked (you explicitly type /command to trigger them).
 
 Benefits:
 
-- Extend Claude’s capabilities for your specific workflows.
+- Extend the agent’s capabilities for your specific workflows.
 - Share expertise across your team via git.
 - Reduce repetitive prompting.
 - Compose multiple Skills for complex tasks.
+- Progressively loaded. This avoids adding unecessary detail to the context window.
 
 ## How To Create Skills
 
@@ -79,7 +82,7 @@ A SKILL.md file has the following format:
 ```
 ---
 name: skill-name
-description: A brief description of the Skill, what it does and when to use it
+description: A brief description of the Skill, what it does and when to use it.
 ---
 
 # Skill Name
@@ -98,11 +101,11 @@ Skills can be built with supporting files, that can be referenced from the SKILL
 ```
 my-skill/
 ├── SKILL.md (required)
-├── reference.md (optional documentation)
-├── examples.md (optional examples)
+├── references (optional documentation loaded as needed)
+│   └── example.md (optional docs)
 ├── scripts/
 │   └── helper.py (optional utility)
-└── templates/
+└── assets/ (optional assets, such as templates)
     └── template.txt (optional template)
 ```
 
@@ -142,5 +145,6 @@ Can you review this code?
 
 - [Claude Code Skills](https://code.claude.com/docs/en/skills)
 - [Claude Agent Skills](https://platform.claude.com/docs/en/agents-and-tools/agent-skills/overview)
+- [The Complete Guide To Building Skills For Claude](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf)
 - [Amp Agent Skills](https://ampcode.com/manual#agent-skills)
 - [OpenAI Codex Skills](https://github.com/openai/codex/blob/main/docs/skills.md)
