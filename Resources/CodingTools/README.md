@@ -28,3 +28,5 @@ own API key.
 * [Amp](https://ampcode.com/) - Amp is a frontier coding agent engineered to maximize what’s possible with today’s latest models—autonomous reasoning, comprehensive code editing, and complex task execution.
 * [Goose](https://github.com/block/goose) - Free, any LLM, supports local models (rust based)
 * [Aider](https://aider.chat/) - An open source free AI pair programming agent.
+* [Intent](https://www.augmentcode.com/product/intent) - A developer workspace from Augment Code where agents are coordinated, specs stay alive, and every workspace is isolated.
+* [Air](https://air.dev/) - JetBrains Air is the Agentic Development Environment where Codex, Claude Agent, Gemini CLI, and Junie execute independent task loops without interfering with each other.
