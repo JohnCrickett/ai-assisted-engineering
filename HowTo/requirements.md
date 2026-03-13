@@ -34,3 +34,21 @@ Here are the answers to your questions:
 
 What additional questions do you need answered?
 ```
+
+### Requirements Format
+
+For best results include in the initial prompt for requirements one or more examples of the required requirements format. For example I prefer to use EARS, my prompt therefore includes the additional text:
+
+```text
+Use the The Easy Approach to Requirements Syntax for the requirements.
+
+The Easy Approach to Requirements Syntax (EARS) is a mechanism to gently constrain textual requirements. The EARS patterns provide structured guidance that enable authors to write high quality textual requirements.
+
+Generic EARS syntax: 
+
+The clauses of a requirement written in EARS always appear in the same order. The basic structure of an EARS requirement is:
+
+While <optional pre-condition>, when <optional trigger>, the <system name> shall <system response>
+
+The EARS ruleset states that a requirement must have: Zero or many preconditions; Zero or one trigger; One system name; One or many system responses.
+```
