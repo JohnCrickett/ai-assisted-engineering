@@ -6,6 +6,7 @@
 - [To the moon! Navigating deep context in legacy code with Augment Agent](https://www.youtube.com/watch?v=6NIr_cYPglk) by Forrest Brazeal, Matt Ball
 - [How Coding Agents change Software Development Forever](https://www.youtube.com/watch?v=EUHx5ooJHuQ) by Hailong Zhang
 - [Collaborating with Agents in your Software Dev Workflow](https://www.youtube.com/watch?v=G1hhmz6mXT0) by Jon Peck & Christopher Harrison, Microsoft
+- [AI Assisted Software Development](https://speakerdeck.com/sullis/ai-assisted-software-development-portland-java-user-group-2026-04-14) by Sean Sullivan (Portland Java User Group, April 2026)
 
 ## Productivity / ROI Of AI-Assisted Engineering
 - [Can you prove AI ROI in Software Eng?](https://www.youtube.com/watch?v=JvosMkuNxF8) (Stanford 120k Devs Study) – Yegor Denisov-Blanch, Stanford
